@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профессия Frontend-разработчик</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">Frontend<span>Pro</span></a>
+                <div class="nav-links">
+                    <a href="#about">О курсе</a>
+                    <a href="#program">Программа</a>
+                    <a href="#reviews">Отзывы</a>
+                    <a href="#price">Стоимость</a>
+                </div>
+                <button class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Стань Frontend-разработчиком за 6 месяцев</h1>
+                <p class="hero-subtitle">Научись создавать современные веб-приложения с нуля до профессионального уровня</p>
+                <button class="cta-button pulse">Записаться на курс</button>
+            </div>
+            <div class="hero-image">
+                <div class="code-editor">
+                    <div class="editor-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <div class="editor-content">
+                        <pre><code class="html">// Ваш первый React-компонент
+function Welcome() {
+  return &lt;h1&gt;Привет, мир!&lt;/h1&gt;;
+}</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">О курсе</h2>
+            <div class="about-grid">
+                <div class="about-card scale-in">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Практика</h3>
+                    <p>80% времени - практические задания и реальные проекты</p>
+                </div>
+                <div class="about-card scale-in" style="animation-delay: 0.2s;">
+                    <i class="fas fa-user-tie"></i>
+                    <h3>Наставники</h3>
+                    <p>Преподаватели с опытом работы в топовых IT-компаниях</p>
+                </div>
+                <div class="about-card scale-in" style="animation-delay: 0.4s;">
+                    <i class="fas fa-briefcase"></i>
+                    <h3>Карьера</h3>
+                    <p>Помощь с трудоустройством после успешного окончания</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="program" class="program">
+        <div class="container">
+            <h2 class="section-title">Программа курса</h2>
+            <div class="timeline">
+                <div class="timeline-item fade-in">
+                    <div class="timeline-content">
+                        <h3>Модуль 1: Основы веб-разработки</h3>
+                        <p>HTML5, CSS3, адаптивная верстка, Figma</p>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in" style="animation-delay: 0.2s;">
+                    <div class="timeline-content">
+                        <h3>Модуль 2: JavaScript</h3>
+                        <p>ES6+, DOM, асинхронность, работа с API</p>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in" style="animation-delay: 0.4s;">
+                    <div class="timeline-content">
+                        <h3>Модуль 3: React.js</h3>
+                        <p>Компоненты, хуки, состояние, маршрутизация</p>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in" style="animation-delay: 0.6s;">
+                    <div class="timeline-content">
+                        <h3>Модуль 4: Продвинутые темы</h3>
+                        <p>TypeScript, тестирование, оптимизация</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="price" class="price">
+        <div class="container">
+            <h2 class="section-title">Стоимость обучения</h2>
+            <div class="price-cards">
+                <div class="price-card slide-up">
+                    <h3>Базовый</h3>
+                    <div class="price-amount">25 000 ₽/мес</div>
+                    <ul>
+                        <li>Доступ к лекциям</li>
+                        <li>Практические задания</li>
+                        <li>Проверка 1 раз в неделю</li>
+                    </ul>
+                    <button class="price-button">Выбрать</button>
+                </div>
+                <div class="price-card featured slide-up" style="animation-delay: 0.2s;">
+                    <div class="popular-tag">Популярный</div>
+                    <h3>Профессия</h3>
+                    <div class="price-amount">35 000 ₽/мес</div>
+                    <ul>
+                        <li>Все из Базового</li>
+                        <li>Индивидуальный наставник</li>
+                        <li>Code review</li>
+                        <li>Гарантия трудоустройства</li>
+                    </ul>
+                    <button class="price-button">Выбрать</button>
+                </div>
+                <div class="price-card slide-up" style="animation-delay: 0.4s;">
+                    <h3>Премиум</h3>
+                    <div class="price-amount">50 000 ₽/мес</div>
+                    <ul>
+                        <li>Все из Профессии</li>
+                        <li>Личный карьерный коуч</li>
+                        <li>Дополнительные проекты</li>
+                    </ul>
+                    <button class="price-button">Выбрать</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Frontend<span>Pro</span></h3>
+                    <p>Обучаем frontend-разработке с 2018 года</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                    <a href="#"><i class="fab fa-vk"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
